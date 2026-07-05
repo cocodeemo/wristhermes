@@ -1,0 +1,308 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D2219D7F9CE802DDE1DC91D3 /* WristHermesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A1597184FE975004B8151E /* WristHermesApp.swift */; };
+		D712C6B23AC20C22E28694FF /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336A4B95B97D84960E4E1849 /* Message.swift */; };
+		0AC02E695189E66CFAD732E2 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4322A58E3779426F008E8D /* Session.swift */; };
+		6F9D9A59AA98B8D6B2F11D79 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003DBFAAB6E38FF1252341BB /* ContentView.swift */; };
+		09E994EC5CDCE07FFE2A9015 /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171282ACCA2B8E9431CB3468 /* InputView.swift */; };
+		E2D8255E7D476C36DC1D8668 /* MessageBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E55F92E13160BE216C8A6A2 /* MessageBubble.swift */; };
+		EBCDA20E27FFA1F01679CE30 /* SessionListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18114B9DE6F1876A26B2FED /* SessionListView.swift */; };
+		C4D5A3C121C47F19B92CC105 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EAC4F0580E80FBDDC2138E7 /* SettingsView.swift */; };
+		F0E489145A95C9D3DAB59B09 /* BonjourBrowser.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78EE5272AD9DBADF267FF96 /* BonjourBrowser.swift */; };
+		59D7C483DB4E01AE176CD127 /* BridgeClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8489B537B0AD472D928711 /* BridgeClient.swift */; };
+		2ADE31673589892394B4F82D /* SessionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D26CD1910993A73D55B907 /* SessionStore.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F5BF48AA40CAD7891EB709FC /* WristHermes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WristHermes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		51570F093954B65F706F7C19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30A1597184FE975004B8151E /* WristHermesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WristHermesApp.swift; sourceTree = "<group>"; };
+		336A4B95B97D84960E4E1849 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		9E4322A58E3779426F008E8D /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
+		003DBFAAB6E38FF1252341BB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		171282ACCA2B8E9431CB3468 /* InputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputView.swift; sourceTree = "<group>"; };
+		4E55F92E13160BE216C8A6A2 /* MessageBubble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageBubble.swift; sourceTree = "<group>"; };
+		E18114B9DE6F1876A26B2FED /* SessionListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionListView.swift; sourceTree = "<group>"; };
+		7EAC4F0580E80FBDDC2138E7 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		C78EE5272AD9DBADF267FF96 /* BonjourBrowser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BonjourBrowser.swift; sourceTree = "<group>"; };
+		3E8489B537B0AD472D928711 /* BridgeClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BridgeClient.swift; sourceTree = "<group>"; };
+		B6D26CD1910993A73D55B907 /* SessionStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionStore.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		ED93E405523A8FEA23D04050 /* WristHermes */ = {
+			isa = PBXGroup;
+			children = (
+				30A1597184FE975004B8151E /* WristHermesApp.swift */,
+			);
+			path = WristHermes;
+			sourceTree = "<group>";
+		};
+		C577B06264402C1E383BCA97 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				336A4B95B97D84960E4E1849 /* Message.swift */,
+				9E4322A58E3779426F008E8D /* Session.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9999B3419E650FC59A2AFD3D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				C78EE5272AD9DBADF267FF96 /* BonjourBrowser.swift */,
+				3E8489B537B0AD472D928711 /* BridgeClient.swift */,
+				B6D26CD1910993A73D55B907 /* SessionStore.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		D93B8407F111EB088D5DD7DC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				003DBFAAB6E38FF1252341BB /* ContentView.swift */,
+				171282ACCA2B8E9431CB3468 /* InputView.swift */,
+				4E55F92E13160BE216C8A6A2 /* MessageBubble.swift */,
+				E18114B9DE6F1876A26B2FED /* SessionListView.swift */,
+				7EAC4F0580E80FBDDC2138E7 /* SettingsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5928955287B8089ED2177128 = {
+			isa = PBXGroup;
+			children = (
+				C577B06264402C1E383BCA97 /* Models */,
+				9999B3419E650FC59A2AFD3D /* Services */,
+				D93B8407F111EB088D5DD7DC /* Views */,
+				30A1597184FE975004B8151E /* WristHermesApp.swift */,
+				51570F093954B65F706F7C19 /* Info.plist */,
+				F5BF48AA40CAD7891EB709FC /* WristHermes.app */,
+			);
+			path = WristHermes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42AEFBAE01D2DFD981F7DA7D /* WristHermes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D6DB1C05C5EBFE77C200493;
+			buildPhases = (
+				7D5580843CA87C6F134C9C3A /* Sources */,
+				B22A3451AEE081E29DEBFBCA /* Resources */,
+			);
+			buildRules = ();
+			dependencies = ();
+			name = WristHermes;
+			productName = WristHermes;
+			productReference = F5BF48AA40CAD7891EB709FC;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46F86FAA6BBF9AC94A7E4595 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2600;
+			};
+			buildConfigurationList = 69997A7A218BB78E67921C7D;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (en, Base);
+			mainGroup = 5928955287B8089ED2177128;
+			productRefGroup = 5928955287B8089ED2177128;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42AEFBAE01D2DFD981F7DA7D /* WristHermes */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7D5580843CA87C6F134C9C3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2219D7F9CE802DDE1DC91D3 /* WristHermesApp.swift in Sources */,
+				D712C6B23AC20C22E28694FF /* Message.swift in Sources */,
+				0AC02E695189E66CFAD732E2 /* Session.swift in Sources */,
+				6F9D9A59AA98B8D6B2F11D79 /* ContentView.swift in Sources */,
+				09E994EC5CDCE07FFE2A9015 /* InputView.swift in Sources */,
+				E2D8255E7D476C36DC1D8668 /* MessageBubble.swift in Sources */,
+				EBCDA20E27FFA1F01679CE30 /* SessionListView.swift in Sources */,
+				C4D5A3C121C47F19B92CC105 /* SettingsView.swift in Sources */,
+				F0E489145A95C9D3DAB59B09 /* BonjourBrowser.swift in Sources */,
+				59D7C483DB4E01AE176CD127 /* BridgeClient.swift in Sources */,
+				2ADE31673589892394B4F82D /* SessionStore.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B22A3451AEE081E29DEBFBCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = ();
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		664DFC33ACA1579FC3ED639D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("DEBUG=1", "$(inherited)");
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = watchos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+				SWIFT_VERSION = 5.0;
+				ENABLE_TESTABILITY = YES;
+			};
+			name = Debug;
+		};
+		C431219BBE26C08DB55089F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("$(inherited)");
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = watchos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+				SWIFT_VERSION = 5.0;
+				ENABLE_TESTABILITY = YES;
+			};
+			name = Release;
+		};
+		ADF8D10C1FBA999C12F23879 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("DEBUG=1", "$(inherited)");
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = watchos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+				SWIFT_VERSION = 5.0;
+				ENABLE_TESTABILITY = YES;
+				INFOPLIST_FILE = WristHermes/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cocodeemo.wristhermes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+			};
+			name = Debug;
+		};
+		6791BF1F1E8A3A0981023556 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("$(inherited)");
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = watchos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+				SWIFT_VERSION = 5.0;
+				ENABLE_TESTABILITY = YES;
+				INFOPLIST_FILE = WristHermes/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cocodeemo.wristhermes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		69997A7A218BB78E67921C7D = {
+			isa = XCConfigurationList;
+			buildConfigurations = (664DFC33ACA1579FC3ED639D /* Debug */, C431219BBE26C08DB55089F5 /* Release */);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D6DB1C05C5EBFE77C200493 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (ADF8D10C1FBA999C12F23879 /* Debug */, 6791BF1F1E8A3A0981023556 /* Release */);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46F86FAA6BBF9AC94A7E4595 /* Project object */;
+}
